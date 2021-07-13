@@ -105,7 +105,7 @@ mongodb322.enabled - mongdb 3.2.2版本插件是否启用，默认为 false
 
 ```
 -Xbootclasspath/a:$JAVA_HOME/lib/tools.jar
--javaagent:/somepath/transmittable-thread-local-2.12.1.jar
+-javaagent:/somepath/bootstrap/transmittable-thread-local-2.12.1.jar
 -javaagent:/somepath/simulator-launcher-instrument.jar
 -Dpradar.project.name=xxx-test
 -Dsimulator.agentId=xxxx
@@ -119,7 +119,7 @@ mongodb322.enabled - mongdb 3.2.2版本插件是否启用，默认为 false
 --add-exports=java.base/jdk.internal.module=ALL-UNNAMED
 --add-exports=java.base/jdk.internal.misc=ALL-UNNAMED
 -Xbootclasspath/a:$JAVA_HOME/lib/tools.jar
--javaagent:/somepath/transmittable-thread-local-2.12.1.jar
+-javaagent:/somepath/bootstrap/transmittable-thread-local-2.12.1.jar
 -javaagent:/somepath/simulator-launcher-instrument.jar
 -Dpradar.project.name=xiaobin-test
 -Dsimulator.agentId=xxxx
